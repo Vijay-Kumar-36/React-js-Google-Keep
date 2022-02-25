@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'McLaren', cursive;
+}
+
+body {
+    background-color: #eee;
+    padding: 0 16px;
+    background-image: url("https://www.transparenttextures.com/patterns/graphcoders-lil-fiber.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+header {
+    background-color: #f5ba13;
+    padding: 10px 0 10px 0;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'McLaren', cursive;
+    margin: 0 -16px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0, 3);
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: none;
+}
+
+form button {
+    position: absolute;
+    right: -427px;
+    margin-top: 20px;
+    bottom: -18px;
+    background-color: #f5ba13;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0, 0.3);
+}
+
+.List {
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 2px 5px#ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+h3 {
+    color: #fff;
+}
+
+.List h2 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.List p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.List button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: inset;
+}
+
+form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137, );
+}
+
+form button {
+    background-color: #f5ba13;
+}
